@@ -23,3 +23,7 @@ This mechanism allows you to chain small, single-purpose utilities into complex 
 To put this into practice, we can use a new utility called grep. It is a command-line tool used to search plain-text data sets for lines that match a regular expression or simple string.
 
 If you are in a directory with hundreds of files and you want to use ls -la, but you only want to see the lines detailing files that contain the word "config", how would you construct the command using a pipe?
+
+```Bash
+ls -la | grep "config"
+```

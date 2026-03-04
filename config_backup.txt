@@ -1,0 +1,2 @@
+-rw-r--r--@  1 filip  staff     0 Mar  4 09:58 .config
+-rw-r--r--@  1 filip  staff     0 Mar  4 10:05 config_backup.txt
