@@ -44,11 +44,11 @@ mkdir - p new_directory/sub_directory
 
 # Streams and Piping
 
-- Piping the result of ls -la to grep to do filtering
+Piping the result of ls -la to grep to do filtering
 ```Bash
 ls -la | grep "config"
 ```
-- Redirecting the output of the previous command to save the output to a file
+Redirecting the output of the previous command to save the output to a file
 ```Bash
 ls -la | grep "config" > output.log
 ```
