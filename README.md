@@ -24,6 +24,11 @@ To put this into practice, we can use a new utility called grep. It is a command
 
 If you are in a directory with hundreds of files and you want to use ls -la, but you only want to see the lines detailing files that contain the word "config", how would you construct the command using a pipe?
 
+- Piping the result of ls -la to grep to do filtering
 ```Bash
 ls -la | grep "config"
+```
+- Redirecting the output of the previous command to save the output to a file
+```Bash
+ls -la | grep "config" > output.log
 ```
