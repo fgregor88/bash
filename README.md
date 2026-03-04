@@ -17,12 +17,30 @@ List content of parent directory.
 ```Bash
 ls ..
 ```
+List content of some path.
+```Bash
+ls Users/filip/Code/
+```
 List long output ```-l``` and hidden files ```-a```
 ```Bash
 ls -la
 ```
 
 ## mkdir
+
+Make directory.
+```Bash
+mkdir new_directory
+```
+Can also nest directories.
+```Bash
+mkdir new_directory/sub_directory/sub_sub_directory
+```
+Flag ```-p``` doesn't throw error if the directory already exists.
+```Bash
+mkdir new_directory
+mkdir - p new_directory/sub_directory
+```
 
 # Streams and Piping
 
