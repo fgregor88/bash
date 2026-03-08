@@ -66,3 +66,7 @@ We can redirect the normal output of the script to a ```output.log``` file and t
 ```Bash
 ./example_script.sh > output.log 2> erro.log
 ```
+Shorthand to redirect both output and error stream to a file.
+```Bash
+./example_script.sh &> combined.log
+```
