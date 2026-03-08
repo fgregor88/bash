@@ -70,3 +70,22 @@ Shorthand to redirect both output and error stream to a file.
 ```Bash
 ./example_script.sh &> combined.log
 ```
+
+## Here string & here doc
+
+### Here string
+Provides a string directly as the input to a command that normally takes a file.
+```Bash
+python3 <<< 'print("hello world")'
+```
+
+### Here doc
+EOF stands for "end of file" but is completely arbitrary, it can be any token it just has to match the end token.
+```Bash
+python3 << EOF
+heredoc>print("hello w2orld")
+heredoc>print(2+)
+heredoc>for i in range(10:
+heredoc>  print(i)
+heredoc>EOF
+```
