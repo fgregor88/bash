@@ -41,6 +41,38 @@ Flag ```-p``` doesn't throw error if the directory already exists.
 mkdir new_directory
 mkdir - p new_directory/sub_directory
 ```
+# File Operations
+
+## cp - Copy files/directories
+```Bash
+cp file.txt file_copy.txt
+cp file.txt /path/to/destination/
+cp -r directory/ directory_copy/  # -r for recursive (directories)
+```
+## mv - Move or rename files
+```Bash
+mv old_name.txt new_name.txt
+mv file.txt /path/to/new/location/
+mv file.txt /path/to/new/location/new_name.txt  # move AND rename
+```
+
+## rm - Remove files/directories
+```Bash
+rm file.txt
+rm -r directory/  # -r for recursive (required for directories)
+rm -f file.txt   # -f for force (no confirmation)
+```
+
+## cat - Read file contents
+```Bash
+cat file.txt
+cat file1.txt file2.txt  # concatenate multiple files
+```
+
+## touch - Create empty files or update time stamp
+```Bash
+touch new_file.txt
+```
 
 # Streams and Piping
 
